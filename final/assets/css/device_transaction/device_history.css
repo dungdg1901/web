@@ -1,0 +1,87 @@
+body {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-label {
+    display: inline-block;
+    width: 120px;
+    padding: 8px;
+    margin: 8px 0px 8px 0px;
+}
+
+.search-input {
+    width: 260px;
+    display: inline-block;
+    background-color: #e1eaf4;
+    padding: 11px 10px 11px 10px;
+    border: 2px solid #41719c;
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.search-select {
+    display: inline-block;
+    background-color: #e1eaf4;
+    width: 260px;
+    padding: 11px 10px 11px 10px;
+    border: 2px solid #41719c;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:where([type="radio"]) {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #41719c;
+    border-radius: 100%;
+    background: #ffffff;
+}
+
+.select-arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 5px;
+    background: url("../image/select-arrow.png") no-repeat #e1eaf4;
+    pointer-events: none;
+}
+
+.search-btn {
+    width: 150px;
+    display: inline-block;
+    background-color: #4f81bd;
+    padding: 10px 0px 10px 0px;
+    border: 3px solid #385d8a;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.list-wrapper {
+    width: 1000px;
+    font-size: 18px;
+}

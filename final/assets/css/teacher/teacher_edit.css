@@ -1,0 +1,69 @@
+.container {
+    margin: auto;
+    width: 31%;
+    border: 3px solid #ccc;
+    border-color: #008CBA;
+    padding: 10px;
+    font-size: 21;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.required {
+    color: red;
+}
+
+label {
+    color: white;
+    background-color: #81C639;
+    width: 122px;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-color: #008CBA;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 21;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=text],
+select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-color: #008CBA;
+    box-sizing: border-box;
+    font-size: 21;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-color: #008CBA;
+    box-sizing: border-box;
+    font-size: 21;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    color: white;
+    background-color: #81C639;
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 8px 8px 90px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    border-color: #008CBA;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 21;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -2,7 +2,7 @@
 session_start();
 include_once "../../model/device.php";
 if(isset($_POST["deviceEdit"])){
-    header('Location: ./device_edit.input.php/id='.$_POST["deviceEdit"]);
+    header('Location: ./device_edit.input.php/?sua=' . $_POST["deviceEdit"]);
  }
  
 if(isset($_POST['deleteDevice'])){

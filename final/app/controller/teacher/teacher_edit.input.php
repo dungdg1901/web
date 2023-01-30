@@ -82,8 +82,12 @@ function validate_data()
 
 // get data for viewing
 function get_data_for_view()
-{
-    $_SESSION["teacher_edit_id"] = 1;
+{	
+	if(!isset($_SESSION["teacher_edit_id"]))
+	{
+		$t_edit_id = isset($_REQUEST['teacher_edit']) ? $_REQUEST['teacher_edit'] : '0';
+		$_SESSION["teacher_edit_id"] = (int)$t_edit_id;
+	}
     $data = getTeacher($_SESSION["teacher_edit_id"]);    // cần truyền id của giáo viên muốn sửa thông tin vào đây
     if (isset($_SESSION["name"])) {
         $data["name"] = $_SESSION["name"];

@@ -1,7 +1,7 @@
 <?php
 
-include '../../model/admin.php';
 include '../../common/db.php';
+include '../../model/admin.php';
 
 $result = get_token();
 $nameList = array();
@@ -21,7 +21,7 @@ for ($i = 0; $i < count($result); $i++) {
             }else {
                 $err[$i] = "";
                 update_password($new_password,$result[$i][1]);
-                header('Location: /web-final-team1/final/login.php');
+                header('Location: ../../../login.php');
             }
         }else {
             $err[$i] = "Hãy nhập mật khẩu mới!";

@@ -24,6 +24,6 @@
         $_SESSION['fix_device_description'] = $device_description;
         $_SESSION['fix_device_avatar'] = $device_avatar;
         $_SESSION['fix_device_img_name '] = $device_img_name;
-        header('Location: device_edit.input.php');
+        header('Location: device_edit.input.php?sua='.$device_id);
     }
     include '../../view/device/device_edit.confirm.php';

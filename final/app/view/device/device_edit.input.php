@@ -15,7 +15,7 @@
     echo isset($validate_avatar) ? '<div class ="alert">' . $validate_avatar . '</div>' : '';
     ?>
 
-    <form method="post" action="../../controller/device/device_edit.input.php" enctype="multipart/form-data">
+    <form method="post" action="device_edit.input.php?sua=<?php echo $device_id ?>"  enctype="multipart/form-data">
         <div class="container bg">
             <div class="row first-div">
                 <div class="label-name">

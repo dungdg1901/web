@@ -27,7 +27,7 @@
 				<i></i>
 			</div>
 			<div class="links">
-				<a href="app/controller/admin/forget_password.reset.php">Forgot Password ?</a>
+				<a href="app/controller/admin/forget_password.request.php">Forgot Password ?</a>
 			</div>
 			<input type="submit" name="submit" value="Login">
 		</form>

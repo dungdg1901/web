@@ -1,10 +1,9 @@
 <?php
 
-include 'app/common/db.php';
 class Admin{
     function login($login_id, $password){
         global $connection;
-        $sql = "SELECT * FROM admins WHERE login_id = '$login_id' AND password = '$password'";
+        $sql = "SELECT * FROM admins WHERE login_id = '$login_id' AND password = md5('$password')";
         $result = $connection->query($sql);
         $admin =mysqli_fetch_array($result);
         return $admin;

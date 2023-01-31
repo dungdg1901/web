@@ -14,4 +14,4 @@ if (isset($_POST['search'])) {
     $histories = search_transactions($device, $teacher_id);
 }
 
-include '../../view/device_history.php';
+include '../../view/device_transaction/device_history.php';

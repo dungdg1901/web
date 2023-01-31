@@ -64,7 +64,7 @@ input:where([type="radio"]) {
     display: inline-block;
     top: 20px;
     right: 5px;
-    background: url("../image/select-arrow.png") no-repeat #e1eaf4;
+    background: url("../../image/select-arrow.png") no-repeat #e1eaf4;
     pointer-events: none;
 }
 

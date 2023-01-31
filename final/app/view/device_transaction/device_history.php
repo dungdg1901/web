@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Thiết bị > Lịch sử mượn</title>
-    <link rel="stylesheet" href="../assets/device_history.css">
+    <link rel="stylesheet" href="../../../assets/css/device_transaction/device_history.css">
 </head>
 
 <body>

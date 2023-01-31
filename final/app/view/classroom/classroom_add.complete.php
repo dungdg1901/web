@@ -12,7 +12,7 @@
             <p>
                 Bạn đã đăng ký thành công phòng học
             </p>
-            <a class="mt-25 black" href="/">Trở về trang chủ</a>
+            <a class="mt-25 black" href="../../controller/">Trở về trang chủ</a>
         </div>
     </div>
 </body>

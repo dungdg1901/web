@@ -48,7 +48,7 @@ if (isset($_POST['confirm'])) {
 
     header('Location: classroom_add.complete.php');
 
-    session_destroy();
+    // session_destroy();
 }
 
 if (isset($_POST['fix'])) {

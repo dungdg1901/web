@@ -100,7 +100,7 @@ return $result->fetch_all(MYSQLI_ASSOC);
 }
 
 function get_device_bykeywordandstatus($keyword,$khoa){
-    $sql = "SELECT device_transactions.device_id,devices.name,device_transactions.returned_date FROM devices LEFT JOIN device_transactions ON devices.id = device_transactions.device_id";
+    $sql = "SELECT devices.id,devices.name,device_transactions.returned_date FROM devices LEFT JOIN device_transactions ON devices.id = device_transactions.device_id";
     $x = 0;
     $keyword = mysqli_real_escape_string($GLOBALS['connection'], $keyword);
     $khoa = mysqli_real_escape_string($GLOBALS['connection'], $khoa);

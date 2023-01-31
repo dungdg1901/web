@@ -53,7 +53,7 @@
                                 <td class="action">
                                     <form action = "../../../app/controller/device/device_edit.input.php" class="option">
                                         <button class="btn" type="submit">Sửa</button>
-                                        <input name = "sua" type="hidden" value = <?php echo $value['device_id'];?>>
+                                        <input name = "sua" type="hidden" value = <?php echo $value['id'];?>>
                                     </form>
                                     <form action = "../../../app/controller/device_transaction/device_transact.php" class="option">
                                         <?php
@@ -61,7 +61,7 @@
                                             echo '<button class="btn" type = "submit">Mượn</button>';
                                         }
                                         ?>
-                                        <input name = "muon" type="hidden" value = <?php echo $value['device_id'];?>>
+                                        <input name = "muon" type="hidden" value = <?php echo $value['id'];?>>
                                     </form>
                                     
                                     

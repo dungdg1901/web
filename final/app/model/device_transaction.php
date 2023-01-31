@@ -51,7 +51,7 @@ function updateDate($id){
 function searchReturnDevice($keyword, $key_classroom,$key_teacher){
     
     global $connection;
-    $sql = "SELECT * FROM devices LEFT JOIN device_transactions ON devices.id = device_transactions.device_id";
+    $sql = "SELECT devices.id, devices.name, devices.description, dvt.teacher_id, dvt.classroom_id, dvt.comment, dvt.start_transaction_plan, dvt.end_transaction_plan, dvt.returned_date FROM devices LEFT JOIN device_transactions dvt ON devices.id = dvt.device_id";
     if($keyword != "" or $key_classroom !="" or $key_teacher!=""){
         // $sql = $sql . " Where (device.name LIKE '%" . $keyword . "%'" . " or device.description LIKE '%" . $keyword . "%')";
     

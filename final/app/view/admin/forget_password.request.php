@@ -21,7 +21,7 @@
                 <div class="d-table-cell align-middle">
                     
                     <div class="text-center mt-4" >
-                        <h1 class="h2">Đặt lại mât khẩu</h1>
+                        <h1 class="h2">Đặt lại mật khẩu</h1>
                         <p class="lead">
                             Nhập login id để lấy lại mật khẩu.
                         </p>
